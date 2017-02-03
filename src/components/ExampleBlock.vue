@@ -72,12 +72,6 @@ export default {
         width: calc( 100% / 5 - 15px );
       }
     }
-    @include media( md ) {
-      li {
-        width: 159px;
-        margin: 18.5px;
-      }
-    }
   }
 
   aside {
