@@ -1,0 +1,82 @@
+$breakpoints: (
+  'sm': 'screen and (min-width: 768px)',
+  'md': 'screen and (min-width: 980px)',
+  'lg': 'screen and (min-width: 1200px)',
+  'xl': 'screen and (min-width: 1400px)',
+) !default;
+
+@mixin media($breakpoint) {
+  @if map-has-key($breakpoints, $breakpoint) {
+    @media #{inspect(map-get($breakpoints, $breakpoint))} {
+      @content;
+    }
+  } @else {
+    @warn "Unfortunately, no value could be retrieved from `#{$breakpoint}`. "
+    + "Please make sure it is defined in `$breakpoints` map.";
+  }
+}
+
+@mixin container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+@mixin catch {
+  font: {
+    family: "TsukuGoPro-H", sans-serif;
+    size: 1.9rem;
+    weight: 600;
+  }
+  line-height: 1.3;
+  @include media( sm ) {
+    font: {
+      size: 3.2rem;
+      weight: 900;
+    }
+  }
+}
+
+@mixin title {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  font: {
+    family: "TsukuGoPro-E", sans-serif;
+    size: 1.9rem;
+    weight: 600;
+  }
+  line-height: 1.3;
+  &::after {
+    content: "";
+    display: block;
+    width: 2em;
+    height: 2px;
+    margin-top: 0.95em;
+    background-color: #65c3c5;
+  }
+  @include media( sm ) {
+    font-size: 3.2rem;
+  }
+}
+
+@mixin btn( $backgroundColor: #65c3c5, $borderColor: #28797b ) {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  padding: 1em;
+  color: #fff;
+  font: {
+    size: 1.4rem;
+    weight: 600;
+  }
+  border-radius: 5px;
+  background-color: $backgroundColor;
+  border-bottom: 5px solid $borderColor;
+  @include media( sm ) {
+    font-size: 2.1rem;
+    width: 430px;
+  }
+}

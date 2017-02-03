@@ -1,0 +1,53 @@
+@import './mixin';
+
+html {
+    color: #383838;
+    font: {
+        size: 62.5%;
+        family: Lucida , '游ゴシック' , "Yu Gothic" , "游ゴシック体" , "YuGothic" , serif;
+    }
+    line-height: 1;
+    font-feature-settings: "palt" 1;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+ul {
+  list-style-type: none;
+}
+a {
+    color: #00b0ec;
+    text-decoration: none;
+}
+.visible-xs {
+  display: inline;
+  @include media( sm ) {
+    display: none;
+  }
+}
+
+.hidden-sm {
+  display: none;
+  @include media( sm ) {
+    display: inline;
+  }
+}
+
+.hidden-md {
+  display: none;
+  @include media( md ) {
+    display: inline;
+  }
+}
+
+p {
+  font-size: 1.4rem;
+  line-height: 2;
+  @include media( sm ) {
+    font-size: 1.5rem;
+  }
+  @include media( md ) {
+    font-size: 1.6rem;
+  }
+}
