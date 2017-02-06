@@ -8,23 +8,26 @@
     以下に、その作品と実例を紹介いたします。</p>
     <figure>
       <figcaption>CAR × ROOF</figcaption>
+      <p>一階に大きな庭のような車庫を設けてその間に個室をばら撒きました。</p>
       <ul>
         <li><img src="../assets/images/img_works001.jpg" alt=""></li>
         <li><img src="../assets/images/img_works002.jpg" alt=""></li>
         <li><img src="../assets/images/img_works003.jpg" alt=""></li>
         <li><img src="../assets/images/img_works004.jpg" alt=""></li>
+        <li><img src="../assets/images/img_works005.jpg" alt=""></li>
       </ul>
     </figure>
     <figure>
       <figcaption>AROSMH</figcaption>
+      <p>一階に大きな庭のような車庫を設けてその間に個室をばら撒きました。</p>
       <ul>
-        <li><img src="../assets/images/img_works005.jpg" alt=""></li>
         <li><img src="../assets/images/img_works006.jpg" alt=""></li>
         <li><img src="../assets/images/img_works007.jpg" alt=""></li>
         <li><img src="../assets/images/img_works008.jpg" alt=""></li>
+        <li><img src="../assets/images/img_works009.jpg" alt=""></li>
+        <li><img src="../assets/images/img_works010.jpg" alt=""></li>
       </ul>
     </figure>
-    <a href="#">施工事例のリンク</a>
   </article>
 </template>
 
@@ -68,6 +71,7 @@ export default {
   ul {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     margin: 1rem -7.5px;
     padding: 0;
     @include media( sm ) {
@@ -76,19 +80,47 @@ export default {
   }
 
   li {
-    line-height: 0;
+    position: relative;
+    z-index: 1;
     width: calc( 100% / 2 - 15px );
+    line-height: 0;
     margin: 7.5px;
+    &:first-child {
+      width: 100%;
+      img {
+        width: auto;
+        box-sizing: border-box;
+        border: 8px solid #e4e4e4;
+      }
+      &::after {
+        content: "▼";
+        display: block;
+        color: #e4e4e4;
+        font-size: 30px;
+        width: 20px;
+        position: absolute;
+        right: calc( 50% - 6px );
+        bottom: -3px;
+        z-index: 2;
+      }
+    }
     img {
+      position: relative;
+      z-index: 10;
       width: 100%;
     }
     @include media( sm ) {
-      margin: 12.5px;
-      width: calc( 100% / 4 - 25px );
+      width: calc( 100% / 5 - 15px );
+      margin: 7.5px;
+      &:first-child {
+        width: calc( 100% / 5 - 15px );
+        &::after {
+          right: -10px;
+          top: 51%;
+          bottom: auto;
+          transform: rotate(270deg);
+        }
+      }
     }
-  }
-
-  a {
-    @include btn;
   }
 </style>

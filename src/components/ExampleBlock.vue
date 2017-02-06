@@ -4,16 +4,130 @@
     <p>全10回全ての住宅設計コンペの優秀作品をご紹介いたします。<br class="hidden-sm">
     全国より集結した若き建築家による力作をご覧ください。</p>
     <ul class="exampleList">
-      <li><img src="../assets/images/img_example001.jpg" alt=""></li>
-      <li><img src="../assets/images/img_example002.jpg" alt=""></li>
-      <li><img src="../assets/images/img_example003.jpg" alt=""></li>
-      <li><img src="../assets/images/img_example004.jpg" alt=""></li>
-      <li><img src="../assets/images/img_example005.jpg" alt=""></li>
-      <li><img src="../assets/images/img_example006.jpg" alt=""></li>
-      <li><img src="../assets/images/img_example007.jpg" alt=""></li>
-      <li><img src="../assets/images/img_example008.jpg" alt=""></li>
-      <li><img src="../assets/images/img_example009.jpg" alt=""></li>
-      <li><img src="../assets/images/img_example010.jpg" alt=""></li>
+      <li>
+        <figure>
+          <h1>2007</h1>
+          <img src="../assets/images/img_example001.jpg" alt="">
+          <figcaption>
+            <span>テーマ</span><br>
+            ｢未来」<br>
+            <span>コンセプト</span><br>
+            ｢CAR×ROOF」
+          </figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <h1>2008</h1>
+          <img src="../assets/images/img_example002.jpg" alt="">
+          <figcaption>
+            <span>テーマ</span><br>
+            ｢環境」<br>
+            <span>コンセプト</span><br>
+            ｢した庭の家」
+          </figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <h1>2009</h1>
+          <img src="../assets/images/img_example003.jpg" alt="">
+          <figcaption>
+            <span>テーマ</span><br>
+            ｢50年デザイン住宅」<br>
+            <span>コンセプト</span><br>
+            ｢活動のカベと<br>
+            　　　小さなコシツ」
+          </figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <h1>2010</h1>
+          <img src="../assets/images/img_example004.jpg" alt="">
+          <figcaption>
+            <span>テーマ</span><br>
+            ｢住まいの原点を再考する」<br>
+            <span>コンセプト</span><br>
+            ｢豊かな家」
+          </figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <h1>2011</h1>
+          <img src="../assets/images/img_example005.jpg" alt="">
+          <figcaption>
+            <span>テーマ</span><br>
+            ｢環境住宅 光と風」<br>
+            <span>コンセプト</span><br>
+            ｢からまりの家」
+          </figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <h1>2012</h1>
+          <img src="../assets/images/img_example006.jpg" alt="">
+          <figcaption>
+            <span>テーマ</span><br>
+            ｢自分の家」<br>
+            <span>コンセプト</span><br>
+            ｢渦巻く長廊家」
+          </figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <h1>2013</h1>
+          <img src="../assets/images/img_example007.jpg" alt="">
+          <figcaption>
+            <span>テーマ</span><br>
+            ｢郊外住宅の新定義」<br>
+            <span>コンセプト</span><br>
+            ｢kiosk×house」
+          </figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <h1>2014</h1>
+          <img src="../assets/images/img_example008.jpg" alt="">
+          <figcaption>
+            <span>テーマ</span><br>
+            ｢母の家」<br>
+            <span>コンセプト</span><br>
+            ｢ひとりの場所と<br>
+            　　　みんなの場所」
+          </figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <h1>2015</h1>
+          <img src="../assets/images/img_example009.jpg" alt="">
+          <figcaption>
+            <span>テーマ</span><br>
+            ｢」<br>
+            <span>コンセプト</span><br>
+            ｢」
+          </figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <h1>2016</h1>
+          <img src="../assets/images/img_example010.jpg" alt="">
+          <figcaption>
+            <span>テーマ</span><br>
+            ｢思いやりのある
+            　　　　戸建て住宅」<br>
+            <span>コンセプト</span><br>
+            ｢暮らしが息づく
+            　　　　　　住まい」
+          </figcaption>
+        </figure>
+      </li>
     </ul>
     <aside>
       <h3>その他受賞作品に関してましては、<br class="visible-xs">以下PDFファイルをご覧ください。</h3>
@@ -62,15 +176,29 @@ export default {
     li {
       width: calc( 100% / 2 - 15px );
       margin: 7.5px;
-      line-height: 0;
-      text-align: center;
+      font-size: 1.2rem;
+      line-height: 1.5;
+      text-align: left;
+    }
+    figure {
+      margin: 0;
+    }
+    h1 {
+      font-size: inherit;
+    }
+    span {
+      font-size: .75em;
     }
     @include media( sm ) {
       margin: 2.5rem auto;
       width: 100%;
       li {
+        font-size: 1.4rem;
         width: calc( 100% / 5 - 15px );
       }
+    }
+    @include media( md ) {
+      font-size: 1.6rem;
     }
   }
 

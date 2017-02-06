@@ -27,13 +27,16 @@ export default {
       width: 100%;
       height: 170px;
       margin-top: 2.5rem;
-      background: #ededed url("../assets/images/bg_activity.jpg") left 50% bottom 0 no-repeat;
+      background: #ededed url("../assets/images/bg_activity.jpg") left 50% bottom 50% no-repeat;
       background-size: cover;
       @include media( sm ) {
         height: 250px;
       }
       @include media( md ) {
         height: 350px;
+      }
+      @include media( lg ) {
+        background-size: contain;
       }
     }
   }

@@ -1,10 +1,11 @@
 <template>
   <article>
-    <h2>「思いやりのある戸建て住宅」<br class="visible-sm">建築希望者　大募集！</h2>
+    <h2>「思いやりのある戸建て住宅」<br class="visible-xs">建築希望者　大募集！</h2>
     <p>現在、当コンソーシアムが開催する第10回住宅設計コンペ「テーマ：思いやりのある戸建て住宅」にて、<br class="hidden-sm">
     実現可能なレベルに最も近い作品として選ばれた「棲みかのおすそ分け」を、実際に建てて住んでみたい方、<br class="hidden-sm">
     また、事業に活かしたい建築、不動産業者様を募集しています。</p>
-    <p class="Note">作品のコンセプト等詳細に関しましては、<br class="visible-sm">以下よりご覧ください。</p>
+    <div><img src="../assets/images/img_build.jpg" alt=""></div>
+    <p class="Note">作品のコンセプト等詳細に関しましては、<br class="visible-xs">以下よりご覧ください。</p>
     <a href="">作品詳細を見る</a>
   </article>
 </template>
