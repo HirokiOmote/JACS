@@ -27,7 +27,7 @@ article {
   }
   background-color: #fff;
   @include media( md ) {
-    margin-top: -90px;
+    margin-top: -185px;
     padding-top: 25px;
   }
 }

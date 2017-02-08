@@ -18,7 +18,7 @@
       </ul>
     </figure>
     <figure>
-      <figcaption>AROSMH</figcaption>
+      <figcaption>した庭の家</figcaption>
       <p>一階に大きな庭のような車庫を設けてその間に個室をばら撒きました。</p>
       <ul>
         <li><img src="../assets/images/img_works006.jpg" alt=""></li>

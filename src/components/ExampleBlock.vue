@@ -95,10 +95,9 @@
           <img src="../assets/images/img_example008.jpg" alt="">
           <figcaption>
             <span>テーマ</span><br>
-            ｢母の家」<br>
+            ｢大きな土地の１人暮らしの家」<br>
             <span>コンセプト</span><br>
-            ｢ひとりの場所と<br>
-            　　　みんなの場所」
+            ｢歓びの三角屋根」<br>
           </figcaption>
         </figure>
       </li>
@@ -108,9 +107,10 @@
           <img src="../assets/images/img_example009.jpg" alt="">
           <figcaption>
             <span>テーマ</span><br>
-            ｢」<br>
+            ｢母の家」<br>
             <span>コンセプト</span><br>
-            ｢」
+            ｢ひとりの場所と<br>
+            　　　みんなの場所」
           </figcaption>
         </figure>
       </li>
@@ -132,12 +132,16 @@
     <aside>
       <h3>その他受賞作品に関してましては、<br class="visible-xs">以下PDFファイルをご覧ください。</h3>
       <ul class="otherList">
-        <li><a href="#" target="_blanck">●●●●●●●●●●●●作品PDF</a></li>
-        <li><a href="#" target="_blanck">●●●●●●●●●●●●作品PDF</a></li>
-        <li><a href="#" target="_blanck">●●●●●●●●●●●●作品PDF</a></li>
-        <li><a href="#" target="_blanck">●●●●●●●●●●●●作品PDF</a></li>
-        <li><a href="#" target="_blanck">●●●●●●●●●●●●作品PDF</a></li>
-        <li><a href="#" target="_blanck">●●●●●●●●●●●●作品PDF</a></li>
+        <li><a href="../assets/images/2007jacs.pdf" target="_blanck">2007作品PDF</a></li>
+        <li><a href="../assets/images/2008jacs.pdf" target="_blanck">2008作品PDF</a></li>
+        <li><a href="../assets/images/2009jacs.pdf" target="_blanck">2009作品PDF</a></li>
+        <li><a href="../assets/images/2010jacs.pdf" target="_blanck">2010作品PDF</a></li>
+        <li><a href="../assets/images/2011jacs.pdf" target="_blanck">2011作品PDF</a></li>
+        <li><a href="../assets/images/2012jacs.pdf" target="_blanck">2012作品PDF</a></li>
+        <li><a href="../assets/images/2013jacs.pdf" target="_blanck">2013作品PDF</a></li>
+        <li><a href="#" target="_blanck">2014作品PDF</a></li>
+        <li><a href="../assets/images/2015jacs.pdf" target="_blanck">2015作品PDF</a></li>
+        <li><a href="../assets/images/2016jacs.pdf" target="_blanck">2016作品PDF</a></li>
       </ul>
     </aside>
   </article>
