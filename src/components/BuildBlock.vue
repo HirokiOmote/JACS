@@ -6,7 +6,7 @@
     また、事業に活かしたい建築、不動産業者様を募集しています。</p>
     <div><img src="../assets/images/img_build.jpg" alt=""></div>
     <p class="Note">作品のコンセプト等詳細に関しましては、<br class="visible-xs">以下よりご覧ください。</p>
-    <a href="">作品詳細を見る</a>
+    <a href="#invite">作品詳細を見る</a>
   </article>
 </template>
 

@@ -1,6 +1,6 @@
 <template>
   <article>
-    <div class="container">
+    <div id="invite" class="container">
       <h2>最新作品建築希望者大募集！</h2>
       <p>現在、2016年住宅設計コンペ「思いやりのある戸建て住宅」にて特別実現採用賞を受賞した作品「棲みかのおすそ分け」を実際に実際に建てて住んでみたい一般の方、また、事業に活かしたい建築、不動産業者様を募集しています。<br>住宅とは基本的には利己的なもの。そんな常識を覆す、周囲の環境にも配慮した「思いやりのある戸建て住宅」をコンセプトとして、実現可能なレベルに最も近い作品として選ばれた「棲みかのおすそ分け」で、豊かな暮らしを体験してみませんか？</p>
       <p class="catch">2016年 JACS住宅設計コンペ「テーマ：思いやりのある戸建て住宅」<br>特別実現採用賞　「棲みかのおすそわけ」</p>
@@ -12,12 +12,12 @@
       1人になれる「孤独の場」と、複数で集まれる「参加の場」を選択できる、思いやりのある場をつくりたい。</p>
       <div><img src="../assets/images/img_invite.jpg" alt=""></div>
       <ul>
-        <li><a href="../assets/images/2016concept.pdf">コンセプトPDF</a></li>
-        <li><a href="../assets/images/2016zu.pdf">解説図面PDF</a></li>
+        <li><a href="./static/images/2016concept.pdf">コンセプトPDF</a></li>
+        <li><a href="./static/images/2016zu.pdf">解説図面PDF</a></li>
       </ul>
       <p>実際に建築する建物に関しましては、作品と全く同じものということではなく、ステーツの建築ノウハウを活かし、お客様のライフスタイルを考えながら、実際に生活を営むにあたり快適に過ごせるレベルにブラッシュアップしたものになりますので、ご安心ください。<br>
       コンセプトにご共感いただけた方、ご相談お見積等をご希望の方は、以下よりお気軽にお問い合わせください。</p>
-      <a class="contactBtn" href="">作品実現についてお問い合わせ</a>
+      <a class="contactBtn" href="https://www.states.co.jp/contact/">作品実現についてお問い合わせ</a>
     </div>
   </article>
 </template>

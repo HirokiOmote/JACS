@@ -132,16 +132,16 @@
     <aside>
       <h3>その他受賞作品に関してましては、<br class="visible-xs">以下PDFファイルをご覧ください。</h3>
       <ul class="otherList">
-        <li><a href="../assets/images/2007jacs.pdf" target="_blanck">2007作品PDF</a></li>
-        <li><a href="../assets/images/2008jacs.pdf" target="_blanck">2008作品PDF</a></li>
-        <li><a href="../assets/images/2009jacs.pdf" target="_blanck">2009作品PDF</a></li>
-        <li><a href="../assets/images/2010jacs.pdf" target="_blanck">2010作品PDF</a></li>
-        <li><a href="../assets/images/2011jacs.pdf" target="_blanck">2011作品PDF</a></li>
-        <li><a href="../assets/images/2012jacs.pdf" target="_blanck">2012作品PDF</a></li>
-        <li><a href="../assets/images/2013jacs.pdf" target="_blanck">2013作品PDF</a></li>
-        <li><a href="#" target="_blanck">2014作品PDF</a></li>
-        <li><a href="../assets/images/2015jacs.pdf" target="_blanck">2015作品PDF</a></li>
-        <li><a href="../assets/images/2016jacs.pdf" target="_blanck">2016作品PDF</a></li>
+        <li><a href="./static/images/2007jacs.pdf" target="_blank">2007作品PDF</a></li>
+        <li><a href="./static/images/2008jacs.pdf" target="_blank">2008作品PDF</a></li>
+        <li><a href="./static/images/2009jacs.pdf" target="_blank">2009作品PDF</a></li>
+        <li><a href="./static/images/2010jacs.pdf" target="_blank">2010作品PDF</a></li>
+        <li><a href="./static/images/2011jacs.pdf" target="_blank">2011作品PDF</a></li>
+        <li><a href="./static/images/2012jacs.pdf" target="_blank">2012作品PDF</a></li>
+        <li><a href="./static/images/2013jacs.pdf" target="_blank">2013作品PDF</a></li>
+        <li>2014作品PDF</li>
+        <li><a href="./static/images/2015jacs.pdf" target="_blank">2015作品PDF</a></li>
+        <li><a href="./static/images/2016jacs.pdf" target="_blank">2016作品PDF</a></li>
       </ul>
     </aside>
   </article>
